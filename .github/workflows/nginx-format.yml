@@ -33,6 +33,6 @@ jobs:
         with:
           path: conf
           mode: check
-          indent: 2
+          indent: 4
           indent-char: space
           version: v2.3.0
