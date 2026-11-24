@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: Check Nginx formatting
         uses: soulteary/nginx-format-action@483f27d8115f4044a83a099839eb1cffdb9e0da4 # v1.1.0
@@ -35,4 +35,4 @@ jobs:
           mode: check
           indent: 4
           indent-char: space
-          version: v2.6.1
+          version: v2.6.3
